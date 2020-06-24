@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$background: #000000;
+$mainText: #ffffff; 
+$label:#fca311;
+$border:#e5e5e5;
+$font:  'Open Sans', sans-serif;
+
+body{ 
+  background-color: $background;
+  color: $mainText;
+  font-family: $font;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.025em;
+  font-size: 1rem;
+}
+
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.result{
+  justify-content: space-between;
+  border-radius: 3px;
+  border: 0.05em solid $border;
+  padding: 80px;
+  .data-container{
+    
+    margin: 10px 0;
+    width: 100%;
+    .text-result{
+      color: $label;
+     
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.025rem;
+      line-height: 0.25rem;
+    }
+  }
+  .button-container
+  { 
+    margin: 20px 0;
+    #btn{
+      width: 100%;
+    }
+  }
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  border-radius: 3px;
+  padding: 40px;
+  input{
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 20px;
+    margin: 10px 0;
+    color: $background;
+  }
+  
+}
+
+#btn {
+  line-height: 16px;
+  margin:0 0.3em 0.3em 0;
+  padding:0.35em 1.2em; 
+  width: 50%;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  background-color: $background;
+  border: 0.1em solid $border ;
+  color: $border;
+  font-weight:300;
+  transition: all 0.2s;
+  &:hover{
+    color:$border;
+    background: $label;
+  }
+}
