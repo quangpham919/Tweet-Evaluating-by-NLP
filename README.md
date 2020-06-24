@@ -1,8 +1,8 @@
 # Tweet-Evaluating-by-NLP
-A simple tweet / status evaluating by using Natural Language Processing API, which is built using vanilla Javscript, HTML , CSS for Front-End and Node.js, Express for Back-End. Used Webpack as build tool
+A simple tweet / status evaluating by using Natural Language Processing API, which is built using Javscript, HTML , CSS for Front-End and Node.js, Express for Back-End and Webpack.
 
 ### Feature
-Provides your tweet or status you want to evalute and retreve whether it is subjective or objective and its polarity.
+Providing your tweet or status which you want to evalute and retreving whether it is subjective or objective and its polarity.
 
 ### Clone 
 - - Clone this repo to your local machine using `https://github.com/quangpham919/Tweet-Evaluating-by-NLP.git`
@@ -17,7 +17,9 @@ $ npm install
 ### Step 1 
 -Clone this repo to your local machine
 ### Step 2 
--cd to the folder you have just clone
+```shell
+$ cd Tweet-Evaluating-by-NLP 
+```
 ### Step 3
 -run 
 ```shell
