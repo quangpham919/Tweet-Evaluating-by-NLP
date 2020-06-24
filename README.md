@@ -36,3 +36,6 @@ $ npm start
 $ npm run build-prod
 $ npm start
 ```
+### Step 5 
+-Create an account for aylien apis 
+-Add your private to .env files 
